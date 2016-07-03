@@ -1,0 +1,412 @@
+
+/************************
+******** HTML5 ********** 
+************************/
+ 
+section, header, footer, aside, article, nav {
+  /*display: block;*/
+}
+
+body {
+	background: #222;
+	font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+	position: relative;
+}
+
+canvas {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hidden {
+	display: none;
+}
+
+.visisble {
+	display: block;
+}
+
+.menu {
+	border: 2px solid white;
+	border-radius: 10px;
+	/*display: block;*/
+	color: white;
+	font-family: "Noteworthy", 'Comic Sans MS', helvetica, arial, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	background: rgba(0,0,0,0.5);
+}
+
+#startMenu {
+	clear: both;
+	position: fixed;
+	margin-left: 100px;
+	margin-top: 35px;
+	padding-bottom: 20px;
+	width: 500px;}
+
+#startMenu h1 {
+	text-align: center;
+	font-size: 1.6em;
+	margin-top: 20px;
+}
+
+#startMenu a {
+	text-decoration: none;
+	text-align: center;
+	margin: 10px 32px;
+	float: left;
+	width: 180px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background: rgba(0,0,0,0.6);
+	display: block;
+	color: white;
+	font-family: "Noteworthy", 'Comic Sans MS', helvetica, arial, sans-serif;
+	padding: 5px 0 10px;
+}
+
+#startMenu a:hover {
+	cursor: pointer;
+	background: rgba(0,0,0,0.9);
+}
+
+input {
+	float: left;
+	width: 173px;
+	height: 40px;
+	margin: 30px 0 30px 45px;
+	font-family: "Noteworthy", 'Comic Sans MS', helvetica, arial, sans-serif;
+	font-size: 1.2em;
+	-webkit-user-select: text;
+	background: rgba(0,0,0,0.7);
+	border-radius: 5px;
+	border: 2px solid white;
+	color: white;
+}
+
+#twoPlayers {
+	width: 500px;
+	height: 250px;
+	margin: 35px 100px;
+}
+
+#twoPlayers a {
+	float: left;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	padding: 5px 15px 10px;
+	display: block;
+	margin: 0 11px;
+	width: 100px;
+}
+
+#twoPlayers a:hover {
+	background: rgba(0,0,0,0.9);
+}
+
+#twoPlayersBackButton {
+	margin-left: 103px !important;
+}
+
+#playOnline {
+	width: 500px;
+	height: 275px;
+	margin: 15px 100px;
+}
+
+#playerName {
+	float: left;
+	margin: 25px 10px;
+}
+
+#playerName p {
+	margin: 5px 40px;
+}
+
+#opp {
+	float: right;
+}
+
+#opp p {
+	margin: -5px 0 0 40px;
+}
+
+#playOnline .menuTitle {
+	margin-bottom: 0;
+}
+
+#playOnline input {
+	margin: 0 10px;
+	background: rgba(0,0,0,0.7);
+	border-radius: 5px;
+	border: 2px solid white;
+	color: white;
+}
+
+#playOnline select {
+	float: right;
+	height: 115px;
+	width: 200px;
+	margin: 5px 25px 10px;
+	background: rgba(0,0,0,0.7);
+	border-radius: 5px;
+	border: 2px solid white;
+	font-family: "Noteworthy", 'Comic Sans MS', helvetica, arial, sans-serif;
+	font-size: 0.7em;
+	font-weight: 800;
+	color: white;
+}
+
+#playOnline a {
+	float: left;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	padding: 5px 15px 10px;
+	display: block;
+	margin: 0 11px;
+	width: 100px;
+}
+
+#playOnline a:hover {
+	background: rgba(0,0,0,0.9);
+}
+
+#playOnlineOKButton {
+	background: rgba(0,0,0,0.6);
+	cursor: default;
+}
+
+#playOnlineBackButton {
+	margin-left: 11px !important;
+}
+
+.menuTitle {
+	font-size: 1.7em;
+	text-align: center;
+	margin: 0 0 10px;
+}
+
+.back {
+	clear: both;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	padding: 5px 15px 10px;
+	display: block;
+	margin: 20px auto 0;
+	width: 100px;
+}
+
+.back:hover {
+	background: rgba(0,0,0,0.9);
+}
+
+#About {
+	font-size: 0.8em;
+	margin: 50px 168px;
+	padding: 15px 30px;
+	width: 300px;
+}
+
+#About .technologies {
+	margin: -3px 0;
+}
+
+#underConstruction {
+	font-size: 0.8em;
+	margin: 50px 184px;
+	padding: 15px 30px;
+	width: 300px;
+}
+
+#startButton {
+	position: fixed;
+	top: 180px;
+	width: 150px;
+	/*height: 150px;*/
+	margin-left: 112px;
+	padding: 10px;
+	background: rgba(0,0,0,0.5);
+	font-family: "Noteworthy", 'Comic Sans MS', helvetica, arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+#startButton:hover {
+	background: rgba(0,0,0,0.9);
+	cursor: pointer;
+}
+
+#winnerInfo {
+	position: fixed;
+	top: 125px;
+	width: 250px;
+	height: 120px;
+	margin-left: 225px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#Controls {
+	font-size: 0.8em;
+	margin: 50px 168px;
+	padding: 15px 30px;
+	height: 210px;
+	width: 300px;
+}
+
+#Controls span {
+	float: left;
+	margin-left: 25px;
+}
+
+#Controls p:nth-child(1) {
+	text-decoration: underline;
+	font-size: 1.5em;
+}
+
+#Controls p {
+	margin:-3px 0;
+	text-align: center;
+}
+
+#controlsBackButton {
+	position: fixed;
+	top: 225px;
+	margin-left: 80px;
+}
+
+#exitButton {
+	position: fixed;
+	top: 15px;
+	width: 100px;
+	margin-left: 135px;
+	padding: 0 15px 5px;
+	background: rgba(0,0,0,0.5);
+	font-family: "Noteworthy", 'Comic Sans MS', helvetica, arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+#exitButton:hover {
+	background: rgba(0,0,0,0.9);
+	cursor: pointer;
+}
+
+#gameDisplay{
+	position: fixed;
+	left: 50%;
+	margin-left: -350px;
+	top: 0px;
+	width: 700px;
+	height: 400px;
+}
+
+#player1Data, #player2Data {
+	float: left;
+	margin:-15px 20px;
+	color: white;
+	font-family: "Noteworthy", 'Comic Sans MS', helvetica, arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#player2Data {
+	float: right;
+}
+
+#player2Data p {
+	text-align: right;
+	margin-right: 10px;
+}
+
+#player1Score {
+	height: 23px;
+	width: 128px;
+	border: 2px solid white;
+	background: rgba(0,0,0,0.3);
+	margin: -20px 0 0 -10px;
+	border-radius: 5px;
+}
+
+#player2Score {
+	height: 23px;
+	width: 128px;
+	border: 2px solid white;
+	background: rgba(0,0,0,0.3);
+	margin: -20px 0 0 75px;
+	border-radius: 5px;
+}
+
+ul {
+	margin: 4px 0 0 -40px;
+}
+
+ul li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border: 2px solid white;
+	margin-left: 10px;
+	list-style: none;
+	border-radius: 10px;
+}
+
+.off {
+	border: 2px solid white;
+	background: none;
+}
+
+.on {
+	border: 2px solid yellow;
+	background: yellow;
+}
+
+#controlButtons {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+}
+
+.moveButton {
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin: 0 0 30px 30px;
+	border: none;
+	background: none;
+	display: none;
+}
+
+/*.moveButton:active {
+	-moz-box-shadow: 0 0 3px 3px #fff;
+	-webkit-box-shadow: 0 0 3px 3px #fff;
+	box-shadow: 0 0 3px 3px #fff;
+}*/
+
+#jumpButton {
+	float: right;
+}
+
+* {
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
